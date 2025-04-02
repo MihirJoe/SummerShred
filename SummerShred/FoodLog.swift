@@ -8,7 +8,7 @@
 import Foundation
 import SwiftData
 
-enum MealType: String, Codable {
+enum MealType: String, Codable, CaseIterable {
     case breakfast
     case lunch
     case dinner
