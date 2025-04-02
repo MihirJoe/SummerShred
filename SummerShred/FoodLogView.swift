@@ -243,7 +243,7 @@ struct FoodLogContentView: View {
     }
     
     private var datePickerSection: some View {
-        DatePicker("Date", selection: $selectedDate, displayedComponents: .date)
+        DatePicker("Date", selection: $selectedDate, in: ...Date(), displayedComponents: .date)
             .datePickerStyle(.compact)
             .padding()
     }
@@ -686,7 +686,7 @@ struct AddFoodLogFormView: View {
     
     private var dateSection: some View {
         Section(header: Text("Date & Time")) {
-            DatePicker("Date", selection: $selectedDate, displayedComponents: [.date, .hourAndMinute])
+            DatePicker("Date", selection: $selectedDate, in: ...Date(), displayedComponents: [.date, .hourAndMinute])
         }
     }
     

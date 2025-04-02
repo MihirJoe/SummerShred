@@ -43,7 +43,7 @@ struct AppProgressView: View {
     
     var dateRange: [Date] {
         let calendar = Calendar.current
-        let today = Date()
+        let today = DateUtils.getCurrentDay()
         return (0..<timeRangeValue).map { days in
             calendar.date(byAdding: .day, value: -days, to: today)!
         }.reversed()

@@ -170,7 +170,7 @@ struct WeightLogView: View {
                             .multilineTextAlignment(.trailing)
                     }
                     
-                    DatePicker("Date", selection: $date, displayedComponents: .date)
+                    DatePicker("Date", selection: $date, in: ...Date(), displayedComponents: .date)
                 }
             }
             .navigationTitle("Log Weight")

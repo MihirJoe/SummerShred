@@ -16,9 +16,8 @@ struct DashboardView: View {
     @Query private var weightLogs: [WeightLog]
     
     var todaysFoodLogs: [FoodLog] {
-        let calendar = Calendar.current
-        let startOfDay = calendar.startOfDay(for: Date())
-        let endOfDay = calendar.date(byAdding: .day, value: 1, to: startOfDay)!
+        let startOfDay = DateUtils.getStartOfCurrentDay()
+        let endOfDay = DateUtils.getEndOfCurrentDay()
         
         return foodLogs.filter { foodLog in
             foodLog.date >= startOfDay && foodLog.date < endOfDay
@@ -112,7 +111,7 @@ struct DashboardView: View {
                 }
                 .padding(.vertical)
             }
-            .navigationTitle("Dashboard")
+            .navigationTitle(Text(DateUtils.getCurrentDay(), style: .date))
         }
     }
     

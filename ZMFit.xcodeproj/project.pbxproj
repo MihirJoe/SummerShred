@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033E20222D9C5626006C2A37 /* SummerShred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerShred.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		033E20342D9C5627006C2A37 /* SummerShredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerShredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		033E203E2D9C5627006C2A37 /* SummerShredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerShredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E20222D9C5626006C2A37 /* ZMFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E20342D9C5627006C2A37 /* ZMFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E203E2D9C5627006C2A37 /* ZMFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		033E20232D9C5626006C2A37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				033E20222D9C5626006C2A37 /* SummerShred.app */,
-				033E20342D9C5627006C2A37 /* SummerShredTests.xctest */,
-				033E203E2D9C5627006C2A37 /* SummerShredUITests.xctest */,
+				033E20222D9C5626006C2A37 /* ZMFit.app */,
+				033E20342D9C5627006C2A37 /* ZMFitTests.xctest */,
+				033E203E2D9C5627006C2A37 /* ZMFitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		033E20212D9C5626006C2A37 /* SummerShred */ = {
+		033E20212D9C5626006C2A37 /* ZMFit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033E20482D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShred" */;
+			buildConfigurationList = 033E20482D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFit" */;
 			buildPhases = (
 				033E201E2D9C5626006C2A37 /* Sources */,
 				033E201F2D9C5626006C2A37 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				033E20242D9C5626006C2A37 /* SummerShred */,
 			);
-			name = SummerShred;
+			name = ZMFit;
 			packageProductDependencies = (
 			);
 			productName = SummerShred;
-			productReference = 033E20222D9C5626006C2A37 /* SummerShred.app */;
+			productReference = 033E20222D9C5626006C2A37 /* ZMFit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		033E20332D9C5627006C2A37 /* SummerShredTests */ = {
+		033E20332D9C5627006C2A37 /* ZMFitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033E204B2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShredTests" */;
+			buildConfigurationList = 033E204B2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFitTests" */;
 			buildPhases = (
 				033E20302D9C5627006C2A37 /* Sources */,
 				033E20312D9C5627006C2A37 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				033E20372D9C5627006C2A37 /* SummerShredTests */,
 			);
-			name = SummerShredTests;
+			name = ZMFitTests;
 			packageProductDependencies = (
 			);
 			productName = SummerShredTests;
-			productReference = 033E20342D9C5627006C2A37 /* SummerShredTests.xctest */;
+			productReference = 033E20342D9C5627006C2A37 /* ZMFitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		033E203D2D9C5627006C2A37 /* SummerShredUITests */ = {
+		033E203D2D9C5627006C2A37 /* ZMFitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033E204E2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShredUITests" */;
+			buildConfigurationList = 033E204E2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFitUITests" */;
 			buildPhases = (
 				033E203A2D9C5627006C2A37 /* Sources */,
 				033E203B2D9C5627006C2A37 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				033E20412D9C5627006C2A37 /* SummerShredUITests */,
 			);
-			name = SummerShredUITests;
+			name = ZMFitUITests;
 			packageProductDependencies = (
 			);
 			productName = SummerShredUITests;
-			productReference = 033E203E2D9C5627006C2A37 /* SummerShredUITests.xctest */;
+			productReference = 033E203E2D9C5627006C2A37 /* ZMFitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					033E20212D9C5626006C2A37 = {
 						CreatedOnToolsVersion = 16.2;
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 033E201D2D9C5626006C2A37 /* Build configuration list for PBXProject "SummerShred" */;
+			buildConfigurationList = 033E201D2D9C5626006C2A37 /* Build configuration list for PBXProject "ZMFit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				033E20212D9C5626006C2A37 /* SummerShred */,
-				033E20332D9C5627006C2A37 /* SummerShredTests */,
-				033E203D2D9C5627006C2A37 /* SummerShredUITests */,
+				033E20212D9C5626006C2A37 /* ZMFit */,
+				033E20332D9C5627006C2A37 /* ZMFitTests */,
+				033E203D2D9C5627006C2A37 /* ZMFitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		033E20362D9C5627006C2A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033E20212D9C5626006C2A37 /* SummerShred */;
+			target = 033E20212D9C5626006C2A37 /* ZMFit */;
 			targetProxy = 033E20352D9C5627006C2A37 /* PBXContainerItemProxy */;
 		};
 		033E20402D9C5627006C2A37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033E20212D9C5626006C2A37 /* SummerShred */;
+			target = 033E20212D9C5626006C2A37 /* ZMFit */;
 			targetProxy = 033E203F2D9C5627006C2A37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -304,6 +304,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -367,6 +368,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -396,9 +398,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SummerShred/Preview Content\"";
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZMFit;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -425,9 +427,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SummerShred/Preview Content\"";
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ZMFit;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,7 +454,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -461,7 +462,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerShred.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerShred";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZMFit";
 			};
 			name = Debug;
 		};
@@ -471,7 +472,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerShred.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerShred";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZMFit";
 			};
 			name = Release;
 		};
@@ -489,7 +489,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.SummerShredUITests;
@@ -506,7 +505,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VM7SQWLDT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.SummerShredUITests;
@@ -521,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		033E201D2D9C5626006C2A37 /* Build configuration list for PBXProject "SummerShred" */ = {
+		033E201D2D9C5626006C2A37 /* Build configuration list for PBXProject "ZMFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033E20462D9C5627006C2A37 /* Debug */,
@@ -530,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033E20482D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShred" */ = {
+		033E20482D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033E20492D9C5627006C2A37 /* Debug */,
@@ -539,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033E204B2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShredTests" */ = {
+		033E204B2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033E204C2D9C5627006C2A37 /* Debug */,
@@ -548,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033E204E2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "SummerShredUITests" */ = {
+		033E204E2D9C5627006C2A37 /* Build configuration list for PBXNativeTarget "ZMFitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033E204F2D9C5627006C2A37 /* Debug */,
